@@ -1,0 +1,77 @@
+body , html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.main{
+	position: relative;
+background-image:url(https://images.pexels.com/photos/457881/pexels-photo-457881.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-457881.jpg&fm=jpg);
+height: 500px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+   /* padding-top: 50%;*/
+
+}
+.inner-main{
+padding-top: 200px;}
+
+.first{
+front-size: 20px;
+background-color:whitesmoke ;
+padding-bottom: 5px;}
+
+button{
+background-color: #2A2FFF;
+color: white;
+padding-right: 10px;
+padding-left: 10px;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+input{
+width: 250px;
+background-color: whitesmoke;}
+.icons{
+	background-color: whitesmoke;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-evenly;
+	padding-top: 50px;
+	color: #2A2FFF;
+}
+#icon{
+	text-align: center;
+}
+
+
+#iconrow2{
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 4px;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	max-width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+#iconrow3{
+	text-align: center;
+	padding-top: 10px;
+	color: black;
+	opacity: 0.6;
+
+}
+
+.fa-desktop:hover{
+	transform: scale(1.4);
+}
+.fa-layer-group:hover{
+	transform: scale(1.4);
+}
+.fa-check-circle:hover{
+	transform: scale(1.4);
+}
